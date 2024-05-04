@@ -4,7 +4,7 @@ import styles from "../styles/styles.module.css";
 
 export interface Props {
   className?: string;
-  title: string;
+  title?: string;
   style?: React.CSSProperties;
 }
 
